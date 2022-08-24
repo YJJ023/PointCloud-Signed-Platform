@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.fixed{
+ position: fixed; 
+color: white;
+font-size: xx-small;
+padding-left: 0px ;
+}
+.asa{
+position: fixed;
+left: 1300px  !important;
+
+}
+li{
+  list-style: none
+}
+
+.switch-slide-label {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.switch-slide-label:after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition:0.3s ease;
+  transition:0.3s ease;
+}
+
+.switch-slide input:checked+label {
+  background: #34bf49;
+  transition: 0.3s ease;
+}
+.switch-slide input:checked+label:after {
+  left: 40px;
+}
+
+.write{
+  font-size: xx-small;
+  color: white;
+}
+
+body{
+  
+	overflow-x: hidden;
+ overflow-y: hidden; 
+}

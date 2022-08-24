@@ -1,0 +1,32 @@
+.rend{
+
+color: whitesmoke;
+font-size: x-small;
+padding-left: 0%;
+overflow-y: auto;
+height: 600px;
+}
+
+
+.rend::-webkit-scrollbar {
+    width: 0;
+  }
+
+.myli{
+    width: 140px;
+   /*  height: 76.4px; */
+    padding-left: 4px;
+border: 2px solid;
+
+border-color: brown;
+}
+
+.right{
+   margin-left: 5px;
+}
+
+.right1{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+/* .asa{
+    position: fixed;
+    left: 200px;
+    
+    } */
+    
+    .ulul{
+position: fixed;
+left: 1410px;
+top: 130px;
+    }
+
+.ulul >li>button{
+    height: 38px;
+}
